@@ -2,7 +2,7 @@
 
 import express from 'express'; // type: module is used in ES6-JS
 import bodyParser from 'body-parser';
-import useRoutes from './routes/user.js'
+import useRoutes from './routes/user.js';
 
 const app = express();
 const PORT = 5000;
